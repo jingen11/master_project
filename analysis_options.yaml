@@ -1,30 +1,17 @@
-# This file configures the analyzer, which statically analyzes Dart code to
-# check for errors, warnings, and lints.
-#
-# The issues identified by the analyzer are surfaced in the UI of Dart-enabled
-# IDEs (https://dart.dev/tools#ides-and-editors). The analyzer can also be
-# invoked from the command line by running `flutter analyze`.
-
-# The following line activates a set of recommended lints for Flutter apps,
-# packages, and plugins designed to encourage good coding practices.
 include: package:flutter_lints/flutter.yaml
 
+# Not happy with the default? Customize the rules depending on your needs.
+# Here are some examples:
 linter:
-  # The lint rules applied to this project can be customized in the
-  # section below to disable rules from the `package:flutter_lints/flutter.yaml`
-  # included above or to enable additional rules. A list of all available lints
-  # and their documentation is published at
-  # https://dart-lang.github.io/linter/lints/index.html.
-  #
-  # Instead of disabling a lint rule for the entire project in the
-  # section below, it can also be suppressed for a single line of code
-  # or a specific dart file by using the `// ignore: name_of_lint` and
-  # `// ignore_for_file: name_of_lint` syntax on the line or in the file
-  # producing the lint.
   rules:
     prefer_single_quotes: true
-    prefer_relative_imports: true
     use_key_in_widget_constructors: false
-    constant_identifier_names: false
-# Additional information about this file can be found at
-# https://dart.dev/guides/language/analysis-options
+    prefer_relative_imports: true
+    sort_pub_dependencies: false
+    require_trailing_commas: false
+    eol_at_end_of_file: false
+    always_use_package_imports: false
+    avoid_positional_boolean_parameters: false
+    avoid_bool_literals_in_conditional_expressions: false
+    no_leading_underscores_for_local_identifiers: false
+    use_string_buffers: false

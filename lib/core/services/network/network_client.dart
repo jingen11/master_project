@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 
-import '../error/exceptions.dart';
+import '../../error/exceptions.dart';
 
 class NetworkClient {
   Dio _dio = Dio();
