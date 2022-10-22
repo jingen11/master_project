@@ -1,4 +1,4 @@
-# Master Template to start any Flutter Project
+<!-- # Master Template to start any Flutter Project
 
 Flutter Starter, as the name suggests, is a starter kit for Flutter that helps you bootstrap projects with all the essential modules like State Management, API calls, Style Guide, etc. It helps you build production ready apps in a jiffy. Handle everything at one place so you don't have to rewrite code.
 
@@ -27,4 +27,4 @@ Why is this useful? Applying the DRY principle helps code maintainability, impro
 - **Testing & Deployment:** Lastly, you can test and deploy your app smoothly using Flutter Starter! Go to the test folder, add your test files and start writing test cases. Check out the [Android](https://flutter.dev/docs/deployment/android) or [iOS](https://flutter.dev/docs/deployment/ios) pages to deploy your app.
 
 ## Code Architecture
-![Preview](https://i.ibb.co/M1wP0KY/architecture-proposal.png)
+![Preview](https://i.ibb.co/M1wP0KY/architecture-proposal.png) -->
