@@ -94,7 +94,7 @@ class _AppState extends State<_App> {
       },
       builder: (context, state) {
         return MaterialApp(
-          title: 'FMC BMS',
+          title: 'app name',
           color: Colors.black,
           debugShowCheckedModeBanner: false,
           theme: state.currentTheme,
