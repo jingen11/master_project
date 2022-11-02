@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '/core/util/bloc/theme/theme_bloc.dart';
+import '../../../core/bloc/theme/theme_bloc.dart';
 import '/features/splash/widget/change_theme_switch.dart';
 
 class SplashScreen extends StatelessWidget {
